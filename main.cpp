@@ -12,9 +12,6 @@ void setOptions(int options)
     if (options & 0x02) std::cout << "Option 2 enabled\n";
 
     cout << options << endl;
-
-    std::bitset<32> bits(options);
-    std::cout << bits << std::endl;
 }
 
 enum class Permissions : int
@@ -24,7 +21,18 @@ enum class Permissions : int
     Execute = 0x04
 };
 
+
+void nobrain()
+{
+    cout << "no functionality" << endl;
+}
+
+
+
+
 int main() {
     setOptions(0x01 | 0x02); // Передаем комбинацию флагов
+    
+    nobrain();
     return 0;
 }
