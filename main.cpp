@@ -28,11 +28,15 @@ void nobrain()
 }
 
 
+void extra_feature()
+{
+    // branch FV
+}
 
 
 int main() {
-    setOptions(0x01 | 0x02); // Передаем комбинацию флагов
+    //setOptions(0x01 | 0x02); // Передаем комбинацию флагов
     
-    nobrain();
+    //nobrain();
     return 0;
 }
