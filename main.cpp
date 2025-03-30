@@ -27,7 +27,15 @@ void nobrain()
     cout << "no functionality" << endl;
 }
 
+void func1()
+{
+    cout << "a" << endl;
+}
 
+void main_new()
+{
+
+}
 
 
 int main() {
