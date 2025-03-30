@@ -32,6 +32,10 @@ void func1()
     cout << "a" << endl;
 }
 
+void extra_feature()
+{
+    // branch FV
+}
 void main_new()
 {
 
